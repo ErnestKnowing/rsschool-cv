@@ -22,3 +22,8 @@ function isPrime(n) {
 4. Work experience:
 *Nothing yet…*
 5. Education and courses:
+* SoloLearn cours JavaScript
+* SoloLearn cours HTML
+* CS50 video course
+6. Language:
+English level - A2
