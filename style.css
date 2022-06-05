@@ -5,6 +5,9 @@ body {
     margin: auto;
     background: #30d5c8;
 }
+img {
+    width: 400px;
+}
 h1 {
     font-size: 3em;
     letter-spacing: .6em;
