@@ -7,11 +7,17 @@
 I want to learn Front-End Development in RSSchool! My strengths are curiosity, responsibility and perseverance.
 3. Code example:
 ```javascript
-function sum(a,b) {
-    return a + b;
+function showPrimes(n) {
+    for (let i = 2; i < n; i++) {
+        alert(i);
+    }
 }
-let result = sum(1,2);
-alert(result);
+function isPrime(n) {
+    for (let i = 2; i < n; i++ ) {
+        if (n % 1 == 0) return false;
+    }
+    return true;
+}
 ```
 4. Work experience:
 *Nothing yet…*
