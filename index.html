@@ -8,39 +8,64 @@
 		<link rel="stylesheet" type="text/css" href="style.css">
 	</head>
 	<body>
+    <header class="header">
+      <nav class="nav">
+        <ul class="menu">
+          <li><a href="#contacts">Contacts</a></li>
+          <li><a href="#aboutmyself">About myself</a></li>
+          <li><a href="#educationandcourses">Education and courses</a></li>
+          <li><a href="#codeexample">Сode example</a></li>
+          <li><a href="#workexperience">Work experience</a></li>
+          <li><a href="#language">Language</a></li>
+        </ul>
+      </nav>
+    </header>
 		<h1 class="inscription">Ernest Rakhimov</h1>
 		<div>
-			<img class="image" src="ernest_rsschool.jpg" alt="">
+			<img class="image" src="ernest_rsschool.jpg" alt="Ernest Rakhimov">
 		</div>
 		<main>
       <div class="container">
-      <h2>Contacts:</h2>
+      <h2 id="contacts">Contacts:</h2>
 		<section>
       <ul>
-        <li> Discord:Ernest#9083</li>
+        <li>Discord:Ernest#9083</li>
         <li>E-mail: e3050901@gmail.com</li>
       </ul>
 		</section>
 		<section>
-			<h3>About myself:</h3>
-			<i>I want to learn Front-End Development in RSSchool!<br>
-			My strengths are curiosity, responsibility and perseverance.</i>
+			<h2 id="aboutmyself">About myself:</h2>
+			I want to learn Front-End Development in RSSchool!
+			My strengths are curiosity, responsibility and perseverance.
 		</section>
 		<section>
-			<h3>Education and courses:</h3>
+			<h2 id="educationandcourses">Education and courses:</h2>
 			<ul>
 				<li>SoloLearn cours JavaScript</li>
 				<li>SoloLearn cours HTML</li>
 				<li>CS50 video course</li>
       </ul>
 		</section>
+    <section>
+      <h2 id="codeexample">Сode example</h2>
+      <pre>
+        <code>
+function sum() {
+  const num1 = arguments[0];
+  const num2 = arguments[1];
+  console.log(num1 + num2);
+}
+sum(7, 4);
+        </code>
+      </pre>
+    </section>
 		<section>
-			<h4>Work experience:</h4>
-			<i>Nothing yet…</i>
+			<h2 id="workexperience">Work experience:</h2>
+      Nothing yet…
 		</section>
 		<section>
-			<h4>Language:</h4>
-			<i>English level - A2</i>
+			<h2 id="language">Language:</h2>
+      English level - A2
 		</section>
   </div>
 	</main>
