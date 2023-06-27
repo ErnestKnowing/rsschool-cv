@@ -14,3 +14,14 @@ function isPalindrome(x) {
 }
 isPalindrome("aba")
 ```
+4. Work experience:
+I create my own websites and simple games, I don't have commercial development experience yet.
+5. Education and courses:
+There are certificates from freeCodeCamp on Responsive Web Design, JavaScript Algorithms and Data Structures, as well as courses on Front End Development Libraries.
+* SoloLearn cours JavaScript
+* SoloLearn cours HTML
+* CS50 video course
+*React course
+And practice, practice and more practice
+6. Language:
+English level - A2
