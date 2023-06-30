@@ -3,13 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
   </head>
   <body>
     <header>
-        <div class="logo">
-        </div>
+      <div class="logo"></div>
       <nav>
         <ul>
           <li><a>Contacts</a></li>
@@ -22,16 +21,37 @@
       </nav>
     </header>
     <main>
-        <section class="section">
-            <div class="one">
-                <img src="img/iam.jpg" alt="It's me">
-            </div>
-            <div class="two">
-                <h3>Contacts</h3>
-                <p>Discord: Ernest#9083</p>
-                <p>E-mail: e30501@gmail.com</p>
-            </div>
-        </section>
+      <section class="section">
+        <div class="one">
+          <img src="img/iam.jpg" alt="It's me" />
+        </div>
+        <div class="two">
+          <h3>Contacts</h3>
+          <p>Discord: Ernest#9083</p>
+          <p>E-mail: e30501@gmail.com</p>
+        </div>
+      </section>
+      <section class="section">
+        <div class="one">
+          <h3>About myself</h3>
+          <p>
+            I like to discover new horizons of knowledge, so I’m here. I like it
+            when the brains strain, so I’m here. I like to program, so I’m here.
+          </p>
+        </div>
+        <div class="two">
+          <h3>Code example</h3>
+          <pre>
+            <code>
+                function isPalindrome(x) {
+                    let xReverse = x.split('').reverse().join('')
+                    return xReverse.toUpperCase() === x.toUpperCase()
+                  }
+                  isPalindrome("aba")
+            </code>
+          </pre>
+        </div>
+      </section>
     </main>
     <footer></footer>
   </body>
