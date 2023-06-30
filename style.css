@@ -4,7 +4,7 @@
 }
 body {
   background-color: rgb(175, 89, 255);
-  width: 100%;
+  max-width: max-content;
   height: 100%;
 }
 /*HEADER*/
@@ -67,11 +67,10 @@ main {
 }
 img {
   display: block;
-
   border-radius: 50%;
   margin: 0 auto;
   border: 5px solid white;
-  width: 35%;
+  width: 32%;
 }
 .two {
   background: linear-gradient(to right, #1f233e 50%, #ef6b68 50%);
@@ -105,4 +104,10 @@ footer {
   justify-content: space-around;
   height: 7%;
   width: 100%;
+}
+footer p{
+    color: #1f233e;
+    font-family: Work Sans, sans-serif;
+    font-size: 18px;
+    font-weight: 800;
 }
