@@ -3,7 +3,7 @@
   margin: 0;
 }
 body {
-  background-color: rgb(175, 89, 255);
+  background-color: rgb(255, 255, 255);
   max-width: max-content;
   height: 100%;
 }
@@ -16,31 +16,40 @@ header {
   width: 100%;
 }
 header nav {
-  width: 60%;
+  width: 80%;
   height: 7%;
 }
 header nav ul {
   display: flex;
   justify-content: space-around;
 }
-li {
+.nav {
   list-style-type: none;
   font-family: Work Sans, sans-serif;
   font-size: 17px;
   font-weight: 200;
   padding: 10px;
 }
-li:hover {
-  background-color: white;
+.p {
+  color: white;
+  list-style-type: none;
+  font-family: Work Sans, sans-serif;
+  font-size: 18px;
+  font-weight: 200;
+  padding: 10px;
+}
+.nav:hover {
+  background-color: #ef6b68;
   cursor: pointer;
 }
 a {
   text-decoration: none;
-  color: #ef6b68;
+  color: #ffffff;
 }
 a:hover {
-  color: #1f233e;
+  color: #000000;
 }
+
 /*MAIN*/
 main {
   display: flex;
@@ -59,7 +68,15 @@ main {
   background: linear-gradient(to right, #1f233e 50%, #ef6b68 50%);
   width: 50%;
 }
-.one h3 {
+h1 {
+  font-family: Work Sans, sans-serif;
+  font-size: 28px;
+  font-weight: 200;
+  letter-spacing: 0.6px;
+  text-align: center;
+  color: #ffffff;
+}
+.one h2 {
   color: white;
 }
 .one p {
@@ -77,10 +94,21 @@ img {
   width: 50%;
   border-left: 2px solid white;
 }
-.two h3 {
+.two h2 {
   color: #ffffff;
 }
 .two p {
+  color: #ffffff;
+}
+.last {
+  background: linear-gradient(to right, #1f233e 50%, #ef6b68 50%);
+  width: 100%;
+  border-left: 2px solid white;
+}
+.last h2 {
+  color: #ffffff;
+}
+.last p {
   color: #ffffff;
 }
 
@@ -88,27 +116,61 @@ p {
   font-family: Work Sans, sans-serif;
   font-size: 18px;
   font-weight: 200;
-  padding: 10px;
+  padding: 15px;
 }
-h3 {
+h2 {
   font-family: Work Sans, sans-serif;
   font-size: 25px;
   font-weight: 200;
   letter-spacing: 0.6px;
   text-align: center;
-  /* background-color: rgba(34, 38, 66, 1); */
+}
+/*Container for certificates*/
+.certificatesFlex {
+  display: flex;
+  justify-content: space-around;
+}
+.certificates {
+  border-radius: 5px;
+  width: 25%;
+}
+/*exa code*/
+pre {
+  border-top: 2px solid white;
+}
+code {
+  font-size: 16px;
+  color: white;
+}
+/*Container for skils*/
+.skils {
+  display: flex;
+  justify-content: center;
 }
 /*FOOTER*/
 footer {
-  background-color: #ef6b68;
+  background-color: #ffffff;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   height: 7%;
   width: 100%;
 }
-footer p{
-    color: #1f233e;
-    font-family: Work Sans, sans-serif;
-    font-size: 18px;
-    font-weight: 800;
+footer p {
+  color: #1f233e;
+  font-family: Work Sans, sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+}
+/*Logo RS Scholl*/
+.logoRS {
+  margin: 0 auto;
+  border: 5px solid white;
+  border-radius: 10px;
+  width: 100px;
+}
+/*Logo git*/
+.git {
+  width: 110px;
+  height: 32px;
+  margin-top: 5%;
 }

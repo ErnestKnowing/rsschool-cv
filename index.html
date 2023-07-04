@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/responsive_style.css">
     <title>Ernest Rakhimov CV</title>
   </head>
   <body>
@@ -11,68 +12,115 @@
       <div class="logo"></div>
       <nav>
         <ul>
-          <li><a>Contacts</a></li>
-          <li><a>About myself</a></li>
-          <li><a>Code example</a></li>
-          <li><a>Work experience</a></li>
-          <li><a>Education and courses</a></li>
-          <li><a>Language</a></li>
+          <li class="nav"><a href="#contacts">Contacts</a></li>
+          <li class="nav"><a href="#about-myself">About myself</a></li>
+          <li class="nav"><a href="#code-example">Code example</a></li>
+          <li class="nav"><a href="#work-experience">Work experience</a></li>
+          <li class="nav"><a href="#language">Language</a></li>
+          <li class="nav"><a href="#skills">Skills</a></li>
+          <li class="nav"><a href="#my-projects">My projects</a></li>
+          <li class="nav"><a href="#education-and-courses">Education and courses</a></li>
         </ul>
       </nav>
     </header>
     <main>
       <section class="section">
         <div class="one">
+          <h1>Ernest Rakhimov</h1>
           <img src="img/iam.jpg" alt="It's me">
         </div>
         <div class="two">
-          <h3>Contacts</h3>
-          <p>Discord: Ernest#9083</p>
-          <p>E-mail: e30501@gmail.com</p>
+          <h2 id="contacts">Contacts</h2>
+          <ul>
+            <li class="p">Discord: Ernest#9083</li>
+            <li class="p">E-mail: e30501@gmail.com</li>
+          </ul>
         </div>
       </section>
       <section class="section">
         <div class="one">
-          <h3>About myself</h3>
+          <h2 id="about-myself">About myself</h2>
           <p>
             I like to discover new horizons of knowledge, so I’m here. I like it
             when the brains strain, so I’m here. I like to program, so I’m here.
           </p>
         </div>
         <div class="two">
-          <h3>Code example</h3>
+          <h2 id="code-example">Code example</h2>
           <pre>
             <code>
-                function isPalindrome(x) {
-                    let xReverse = x.split('').reverse().join('')
-                    return xReverse.toUpperCase() === x.toUpperCase()
-                  }
-                  isPalindrome("aba")
+        function isPalindrome(x) {
+            let xReverse = x.split('').reverse().join('')
+            return xReverse.toUpperCase() === x.toUpperCase()
+        }
+        isPalindrome("aba")
             </code>
           </pre>
         </div>
       </section>
       <section class="section">
         <div class="one">
-          <h3>Work experience</h3>
+          <h2 id="work-experience">Work experience</h2>
           <p>
             I create my own websites and simple games, I don't have commercial
             development experience yet.
           </p>
         </div>
         <div class="two">
-          <h3>Education and courses</h3>
+          <h2 id="language">Language</h2>
+          <p>English level - A2</p>
+        </div>
+      </section>
+      <section class="section">
+        <div class="one">
+          <h2 id="skills">Skills</h2>
+          <ul class="skils">
+            <li class="p">GIT</li>
+            <li class="p">JS</li>
+            <li class="p">CSS/SCSS</li>
+            <li class="p">HTML</li>
+            <li class="p">REACT</li>
+            <li class="p">SQL</li>
+          </ul>
+        </div>
+        <div class="two">
+          <h2 id="my-projects">My projects</h2>
+          <p>I'm still working on them:</p>
+          <ul class="skils">
+            <li class="p">
+              <a href="https://ernestknowing.github.io/Project-One/">Website for games</a>
+            </li>
+            <li class="p">
+              <a href="https://ernestknowing.github.io/Project-Two/">Website for films</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="section">
+        <div class="last">
+          <h2 id="education-and-courses">Education and courses</h2>
+          <div class="certificatesFlex">
+            <img class="certificates" src="img/JavaScript (2).png" alt="JS">
+            <img class="certificates" src="img/Responsive.jpg" alt="Responsive">
+          </div>
           <p>
-            There are certificates from freeCodeCamp on Responsive Web Design,
-            JavaScript Algorithms and Data Structures, as well as courses on
-            Front End Development Libraries.
+            I continue to take freeCodeCamp courses, take courses on React and
+            practice it, study algorithms and data structures.
           </p>
-          <p>And practice, practice and more practice</p>
+          <p>And practice, practice and more practice!</p>
         </div>
       </section>
     </main>
     <footer>
-      <p>The end</p>
+      <a href="https://github.com/ErnestKnowing">
+        <svg class="git" xmlns="http://www.w3.org/2000/svg" class="bi bi-github" viewBox="0 0 16 16">
+          <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z">
+        </svg>
+      </a>
+      <p>2023</p>
+      <a href="https://rs.school/js/">
+        <img class="logoRS" src="img/rs_school_js.svg" alt="RS School">
+      </a>
     </footer>
   </body>
 </html>
