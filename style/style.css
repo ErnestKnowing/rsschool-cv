@@ -100,6 +100,17 @@ img {
 .two p {
   color: #ffffff;
 }
+.last {
+  background: linear-gradient(to right, #1f233e 50%, #ef6b68 50%);
+  width: 100%;
+  border-left: 2px solid white;
+}
+.last h2 {
+  color: #ffffff;
+}
+.last p {
+  color: #ffffff;
+}
 
 p {
   font-family: Work Sans, sans-serif;
@@ -115,13 +126,13 @@ h2 {
   text-align: center;
   /* background-color: rgba(34, 38, 66, 1); */
 }
-.certificatesFlex{
+.certificatesFlex {
   display: flex;
   justify-content: space-around;
 }
-.certificates{
+.certificates {
   border-radius: 5px;
-  width: 45%;
+  width: 25%;
 }
 pre {
   border-top: 2px solid white;
@@ -130,7 +141,7 @@ code {
   font-size: 16px;
   color: white;
 }
-.skils{
+.skils {
   display: flex;
   justify-content: center;
 }
