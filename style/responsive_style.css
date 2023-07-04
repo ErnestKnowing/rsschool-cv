@@ -1,0 +1,19 @@
+@media screen and (max-width: 800px) {
+  li {
+    list-style-type: none;
+    font-family: Work Sans, sans-serif;
+    font-size: calc(5px + (17 - 5) * ((100vw - 320px) / (800 - 320)));
+    font-weight: 200;
+    padding: 10px;
+  }
+  h1 {
+    font-family: Work Sans, sans-serif;
+    font-size: calc(10px + (28 - 15) * ((100vw - 320px) / (800 - 320)));
+    font-weight: 200;
+    letter-spacing: 0.6px;
+    text-align: center;
+    color: #ffffff;
+  }
+}
+
+/*calc(50px + (100 - 50) * ((100vw - 320px) / (1350 - 320)));*/

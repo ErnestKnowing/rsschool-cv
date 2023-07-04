@@ -107,6 +107,13 @@ h2 {
   text-align: center;
   /* background-color: rgba(34, 38, 66, 1); */
 }
+pre{
+  border-top: 2px solid white;
+}
+code{
+  font-size: 16px;
+  color: white;
+}
 /*FOOTER*/
 footer {
   background-color: #ffffff;
