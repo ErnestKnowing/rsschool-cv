@@ -115,6 +115,14 @@ h2 {
   text-align: center;
   /* background-color: rgba(34, 38, 66, 1); */
 }
+.certificatesFlex{
+  display: flex;
+  justify-content: space-around;
+}
+.certificates{
+  border-radius: 5px;
+  width: 45%;
+}
 pre {
   border-top: 2px solid white;
 }
