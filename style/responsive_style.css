@@ -1,5 +1,5 @@
 @media screen and (max-width: 800px) {
-  li {
+  .nav {
     list-style-type: none;
     font-family: Work Sans, sans-serif;
     font-size: calc(3px + (17 - 3) * ((100vw - 320px) / (800 - 320)));
@@ -13,6 +13,14 @@
     letter-spacing: 0.6px;
     text-align: center;
     color: #ffffff;
+  }
+  .p {
+    color: white;
+    list-style-type: none;
+    font-family: Work Sans, sans-serif;
+    font-size: calc(5px + (18 - 5) * ((100vw - 320px) / (800 - 320)));
+    font-weight: 200;
+    padding: 10px;
   }
   p {
     font-family: Work Sans, sans-serif;

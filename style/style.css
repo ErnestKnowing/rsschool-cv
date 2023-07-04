@@ -23,14 +23,22 @@ header nav ul {
   display: flex;
   justify-content: space-around;
 }
-li {
+.nav {
   list-style-type: none;
   font-family: Work Sans, sans-serif;
   font-size: 17px;
   font-weight: 200;
   padding: 10px;
 }
-li:hover {
+.p {
+  color: white;
+  list-style-type: none;
+  font-family: Work Sans, sans-serif;
+  font-size: 18px;
+  font-weight: 200;
+  padding: 10px;
+}
+.nav:hover {
   background-color: white;
   cursor: pointer;
 }
@@ -134,7 +142,7 @@ footer p {
   border-radius: 10px;
   width: 100px;
 }
-.git{
+.git {
   width: 110px;
   height: 32px;
 }
