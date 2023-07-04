@@ -39,15 +39,15 @@ header nav ul {
   padding: 10px;
 }
 .nav:hover {
-  background-color: white;
+  background-color: #ef6b68;
   cursor: pointer;
 }
 a {
   text-decoration: none;
-  color: #ef6b68;
+  color: #ffffff;
 }
 a:hover {
-  color: #1f233e;
+  color: #000000;
 }
 
 /*MAIN*/
@@ -121,6 +121,10 @@ pre {
 code {
   font-size: 16px;
   color: white;
+}
+.skils{
+  display: flex;
+  justify-content: center;
 }
 /*FOOTER*/
 footer {
