@@ -1,0 +1,176 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: rgb(255, 255, 255);
+  max-width: max-content;
+  height: 100%;
+}
+/*HEADER*/
+header {
+  background-color: #1f233e;
+  display: flex;
+  justify-content: space-around;
+  height: 7%;
+  width: 100%;
+}
+header nav {
+  width: 80%;
+  height: 7%;
+}
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+.nav {
+  list-style-type: none;
+  font-family: Work Sans, sans-serif;
+  font-size: 17px;
+  font-weight: 200;
+  padding: 10px;
+}
+.p {
+  color: white;
+  list-style-type: none;
+  font-family: Work Sans, sans-serif;
+  font-size: 18px;
+  font-weight: 200;
+  padding: 10px;
+}
+.nav:hover {
+  background-color: #ef6b68;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+a:hover {
+  color: #000000;
+}
+
+/*MAIN*/
+main {
+  display: flex;
+  flex-wrap: wrap;
+  height: 84%;
+  width: 100%;
+}
+.section {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 20%;
+  border: 3px solid white;
+}
+.one {
+  background: linear-gradient(to right, #1f233e 50%, #ef6b68 50%);
+  width: 50%;
+}
+h1 {
+  font-family: Work Sans, sans-serif;
+  font-size: 28px;
+  font-weight: 200;
+  letter-spacing: 0.6px;
+  text-align: center;
+  color: #ffffff;
+}
+.one h2 {
+  color: white;
+}
+.one p {
+  color: white;
+}
+img {
+  display: block;
+  border-radius: 50%;
+  margin: 0 auto;
+  border: 5px solid white;
+  width: 32%;
+}
+.two {
+  background: linear-gradient(to right, #1f233e 50%, #ef6b68 50%);
+  width: 50%;
+  border-left: 2px solid white;
+}
+.two h2 {
+  color: #ffffff;
+}
+.two p {
+  color: #ffffff;
+}
+.last {
+  background: linear-gradient(to right, #1f233e 50%, #ef6b68 50%);
+  width: 100%;
+  border-left: 2px solid white;
+}
+.last h2 {
+  color: #ffffff;
+}
+.last p {
+  color: #ffffff;
+}
+
+p {
+  font-family: Work Sans, sans-serif;
+  font-size: 18px;
+  font-weight: 200;
+  padding: 15px;
+}
+h2 {
+  font-family: Work Sans, sans-serif;
+  font-size: 25px;
+  font-weight: 200;
+  letter-spacing: 0.6px;
+  text-align: center;
+}
+/*Container for certificates*/
+.certificatesFlex {
+  display: flex;
+  justify-content: space-around;
+}
+.certificates {
+  border-radius: 5px;
+  width: 25%;
+}
+/*exa code*/
+pre {
+  border-top: 2px solid white;
+}
+code {
+  font-size: 16px;
+  color: white;
+}
+/*Container for skils*/
+.skils {
+  display: flex;
+  justify-content: center;
+}
+/*FOOTER*/
+footer {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  height: 7%;
+  width: 100%;
+}
+footer p {
+  color: #1f233e;
+  font-family: Work Sans, sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+}
+/*Logo RS Scholl*/
+.logoRS {
+  margin: 0 auto;
+  border: 5px solid white;
+  border-radius: 10px;
+  width: 100px;
+}
+/*Logo git*/
+.git {
+  width: 110px;
+  height: 32px;
+  margin-top: 5%;
+}
