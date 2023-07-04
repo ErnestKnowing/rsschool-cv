@@ -109,9 +109,9 @@ h2 {
 }
 /*FOOTER*/
 footer {
-  background-color: #ef6b68;
+  background-color: #ffffff;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   height: 7%;
   width: 100%;
 }
@@ -120,4 +120,11 @@ footer p {
   font-family: Work Sans, sans-serif;
   font-size: 18px;
   font-weight: 800;
+}
+.logoRS {
+  margin: 0 auto;
+  border: 5px solid white;
+  width: 32%;
+  border-radius: 10px;
+  width: 100px;
 }
